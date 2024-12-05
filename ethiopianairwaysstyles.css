@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Ethiopian Airways Section Styling */
+#ethiopian-airways {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    margin: auto;
+    border: 2px solid #00843d; /* Ethiopian green */
+}
+
+/* Airline Logo */
+.airline-logo img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 180px;
+}
+
+/* Headings */
+h2, h3 {
+    color: #00843d;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Media */
+.media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.media img {
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.media video {
+    max-width: 250px;
+    border-radius: 10px;
+    border: 2px solid #00843d;
+}
+
+/* Pilot Profile */
+.pilot-profile {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f1f8f5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pilot-profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #00843d;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+    background-color: #f9fdfb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 1px solid #00843d;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #00843d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #005c2a;
+}
+button 
+{
+            background-color: #4CAF50; /* Maroon */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker maroon */
+}
+
+/* Contact Details */
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 10px auto;
+}

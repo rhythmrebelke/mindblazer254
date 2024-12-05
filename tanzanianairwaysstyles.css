@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* Styling for each airline section */
+#tanzanian-airways {
+    background-color: #ffffff; /* White background for clarity */
+    border: 2px solid #007bff; /* Blue border like Qatar Airways */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Slightly rounded corners for a clean look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for header */
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p, blockquote {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+input[type="text"], input[type="email"], input[type="date"], textarea {
+    margin-top: 10px;
+}
+
+/* Media section for images and video */
+.media {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.media img,
+.media video {
+    max-width: 45%;
+    border-radius: 8px; /* Rounded corners for images and video */
+}
+
+.pilot-profile {
+    border-top: 2px solid #007bff;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pilot-profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.contact-details blockquote {
+    font-style: italic;
+}
+button 
+{
+            background-color: #4CAF50; /* Blue */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Lighter blue */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .media {
+        flex-direction: column;
+    }
+
+    .media img,
+    .media video {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    input, select, textarea {
+        padding: 12px;
+    }
+}
